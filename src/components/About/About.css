@@ -1,6 +1,6 @@
 .about {
   padding: 100px 10%;
-  background: #0f0f0f;
+  background: #111;
   color: white;
   height: 100vh;
   display: flex;
@@ -50,4 +50,11 @@
   border-radius: 20px;
   border: 1px solid #00bcd4;
   font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.skill-group span:hover {
+  background: #00bcd4;
+  color: #0f0f0f;
+  cursor: pointer;
 }
