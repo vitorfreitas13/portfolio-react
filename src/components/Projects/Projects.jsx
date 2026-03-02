@@ -13,7 +13,6 @@ const projectsData = [
       "Aplicação Fullstack web para gerenciamento de produtos com CRUD completo. Desenvolvida com React no frontend e Node.js + Express no backend, com deploy em produção (Vercel e Render).",
     link: "https://fullstack-product-manager.vercel.app/",
   },
-
   {
     id: 1,
     image: projeto1Thumb,
