@@ -10,7 +10,7 @@ function Navbar() {
         <li><a href="#hero">Home</a></li>
         <li><a href="#sobre">Sobre</a></li>
         <li><a href="#projects">Projetos</a></li>
-        <li><a href="#contato">Contato</a></li>
+        <li><a href="#footer">Contato</a></li>
       </ul>
 
       <button className="btn-cv">Baixar CV</button>
