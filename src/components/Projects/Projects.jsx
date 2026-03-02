@@ -1,30 +1,39 @@
-import projeto7Thumb from "../../assets/projeto7-thumb.jpg";
-import projeto8Thumb from "../../assets/projeto8-thumb.jpg";
-import projeto9Thumb from "../../assets/projeto9-thumb.jpg";
+import projeto1Thumb from "../../assets/projeto1-thumb.jpg";
+import projeto2Thumb from "../../assets/projeto2-thumb.jpg";
+import projeto3Thumb from "../../assets/projeto3-thumb.jpg";
+import projeto0Thumb from "../../assets/projeto0-thumb.jpg";
 import "./Projects.css";
 
 const projectsData = [
   {
-    id: 1,
-    image: projeto7Thumb,
+    id: 0,
+    image: projeto0Thumb,
     title: "Gerenciador de Tarefas",
     description: "Aplicativo web para criar, visualizar e gerenciar tarefas de forma prática, desenvolvido com React e Tailwind CSS, com armazenamento local (localStorage) para salvar os dados do usuário.",
     link: "https://agendador-de-tarefas-2joq.vercel.app/"
   },
   {
+    id: 1,
+    image: projeto1Thumb,
+    title: "Product Manager ",
+    description: "Aplicação Fullstack web para gerenciamento de produtos com CRUD completo. Desenvolvida com React no frontend e Node.js + Express no backend, com deploy em produção (Vercel e Render).",
+    link: "https://fullstack-product-manager.vercel.app/"
+  },
+  {
     id: 2,
-    image: projeto8Thumb,
+    image: projeto2Thumb,
     title: "Cadastros de Usuários",
     description: "Aplicação web para registrar e gerenciar dados de usuários/clientes de forma intuitiva, criada com React e Tailwind CSS, com recursos de formulário e armazenamento de informações no navegador.",
     link: "https://cadastros-system.vercel.app/"
   },
   {
     id: 3,
-    image: projeto9Thumb,
+    image: projeto3Thumb,
     title: "Cadastro de Produtos",
     description: "Sistema web para organizar, registrar e gerenciar produtos com eficiência, com tela de login e interface de usuário simples, desenvolvido com HTML, CSS e JavaScript.",
     link: "https://vitorfreitas13.github.io/projeto-site-cadastro/"
   },
+
 ];
 
 export default function Projects() {
