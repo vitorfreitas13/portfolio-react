@@ -25,9 +25,18 @@ function About() {
           </div>
 
           <div className="skill-group">
-            <h3>Back-End / Dados</h3>
+            <h3>Back-End</h3>
             <span>Python</span>
+            
+            <span>Node.js</span>
+            <span>Express</span>
+
+          </div>
+
+          <div className="skill-group">
+            <h3>Dados</h3>
             <span>MySQL</span>
+            <span>Mongo DB</span>
           </div>
 
           <div className="skill-group">
@@ -35,6 +44,8 @@ function About() {
             <span>Git</span>
             <span>GitHub</span>
             <span>Vite</span>
+            <span>VS Code</span>
+            <span>PyCharm</span>
           </div>
 
           <div className="skill-group">
