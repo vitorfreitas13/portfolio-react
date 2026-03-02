@@ -1,4 +1,4 @@
-import "./Hero.css"
+import "./Hero.css";
 import foto from "../../assets/vitor1.png";
 
 function Hero() {
@@ -12,12 +12,14 @@ function Hero() {
         <h2>Desenvolvedor Front-End</h2>
 
         <p>
-          Crio aplicações modernas com React, focadas em performance
-          e experiência do usuário.
+          Crio aplicações modernas com React, focadas em performance e
+          experiência do usuário.
         </p>
 
         <div className="hero-buttons">
-          <button className="btn-primary">Ver Projetos</button>
+          <button className="btn-primary">
+            <a href="#projects">Ver Projetos</a>
+          </button>
           <button className="btn-outline">Contato</button>
         </div>
       </div>
@@ -26,7 +28,7 @@ function Hero() {
         <img src={foto} alt="Freitas" />
       </div>
     </section>
-  )
+  );
 }
 
-export default Hero
+export default Hero;

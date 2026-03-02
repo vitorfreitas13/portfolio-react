@@ -52,6 +52,11 @@
   gap: 15px;
 }
 
+.hero-buttons a {
+  text-decoration: none;
+  color: #111;
+}
+
 .btn-primary {
   background: #00bcd4;
   border: none;
