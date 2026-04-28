@@ -2,6 +2,7 @@ import projeto1Thumb from "../../assets/projeto1-thumb.jpg";
 import projeto2Thumb from "../../assets/projeto2-thumb.jpg";
 import projeto3Thumb from "../../assets/projeto3-thumb.jpg";
 import projeto0Thumb from "../../assets/projeto0-thumb.jpg";
+import projeto4Thumb from "../../assets/projeto4-thumb.jpg";
 import "./Projects.css";
 
 const projectsData = [
@@ -36,6 +37,14 @@ const projectsData = [
     description:
       "Sistema web para organizar, registrar e gerenciar produtos com eficiência, com tela de login e interface de usuário simples, desenvolvido com HTML, CSS e JavaScript.",
     link: "https://vitorfreitas13.github.io/projeto-site-cadastro/",
+  },
+  {
+    id: 4,
+    image: projeto4Thumb,
+    title: "Vitrine de produtos",
+    description:
+      "Aplicação web animada desenvolvida com HTML, CSS e JavaScript, que simula uma vitrine interativa de refrigerantes com diferentes sabores. O projeto utiliza um carrossel de slides com transições suaves, imagens em camadas e variação dinâmica de cores para cada item.",
+    link: "https://aplicacao-animada-beta.vercel.app/",
   },
 ];
 
