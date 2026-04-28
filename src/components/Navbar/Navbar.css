@@ -115,10 +115,16 @@
     display: flex;
     position: static;
     flex-direction: row;
-    gap: 30px;
+    justify-content: center;
     align-items: center;
+
+    gap: 30px;
+
     background: transparent;
     padding: 0;
+
+    width: auto;
+    flex: 1;
   }
 
   .btn-cv {
@@ -131,4 +137,5 @@
   .logo {
     height: 60px;
   }
+
 }
