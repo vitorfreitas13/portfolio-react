@@ -1,3 +1,5 @@
+/* MOBILE FIRST */
+
 .navbar {
   position: fixed;
   top: 0;
@@ -12,34 +14,42 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 20px 10%;
+  padding: 0 5%;
 
   z-index: 1000;
 }
 
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+.hamburger {
+  display: block;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+}
+
 .menu {
-  display: flex;
-  gap: 30px;
+  display: none;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+
+  background: #0a0a0a;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 20px 0;
+  gap: 20px;
+
   list-style: none;
 }
 
-.btn-cv {
-  background: #00bcd4;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-weight: bold;
-  color: #fff;
-}
-
-.btn-cv:hover {
-  opacity: 0.8;
-}
-
-.logo {
-  height: 60px;   /* controla o tamanho */
-  width: auto;    /* mantém proporção */
+.menu.active {
+  display: flex;
 }
 
 .menu li {
@@ -69,45 +79,56 @@
   width: 100%;
 }
 
-.hamburger {
-  display: none;
-  font-size: 2rem;
+.btn-cv {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  background: #00bcd4;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 50px;
+
   cursor: pointer;
-  color: white;
+  font-weight: bold;
+  color: #fff;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  z-index: 2000;
 }
 
-@media (max-width: 768px) {
+.btn-cv:hover {
+  opacity: 0.8;
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  .navbar {
+    padding: 20px 10%;
+  }
+
   .hamburger {
-    display: block;
+    display: none;
   }
 
   .menu {
-    display: none;
-    position: absolute;
-    top: 70px;
-    left: 0;
-    width: 100%;
-    background: #0a0a0a;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px 0;
-    gap: 20px;
-  }
-
-  .menu.active {
     display: flex;
+    position: static;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    background: transparent;
+    padding: 0;
   }
 
   .btn-cv {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
+    position: static;
+    padding: 8px 16px;
+    border-radius: 6px;
+    box-shadow: none;
+  }
 
-    z-index: 2000;
-
-    padding: 12px 16px;
-    border-radius: 50px;
-
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  .logo {
+    height: 60px;
   }
 }

@@ -1,58 +1,94 @@
+/* MOBILE FIRST */
+
 .footer {
-    height: 70vh;
+  min-height: auto;
+  padding: 60px 5%;
 }
 
 .title {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #dfdfdf;
-    text-align: center;
-    margin-top: 20px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #dfdfdf;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .contact-container {
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    margin-top: 80px;
-}
-
-.contact-container a, .contact-container p {
-    font-size: 1.2rem;
-    color: #dfdfdf;
-    text-decoration: none;
-    cursor: pointer;
-    transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 50px;
 }
 
 .contact-item {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .contact-image {
-
-    width:90px;
-    border-radius: 50%;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-    border: 1px solid #dfdfdf;
-    box-shadow: 0 4px 8px rgba(240, 239, 239, 0.1);
+  width: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  border: 1px solid #dfdfdf;
+  box-shadow: 0 4px 8px rgba(240, 239, 239, 0.1);
 }
 
 .contact-image:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
-.contact-container a:hover, .contact-container p:hover {
-    transform: scale(1.05);
+.contact-container a,
+.contact-container p {
+  font-size: 1.1rem;
+  color: #dfdfdf;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.contact-container a:hover,
+.contact-container p:hover {
+  transform: scale(1.05);
 }
 
 .copyright {
-    text-align: center;
-    margin-top: 40px;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #dfdfdf;
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  .footer {
+    height: 70vh;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .contact-container {
+    flex-direction: row;
+    gap: 100px;
+    margin-top: 80px;
+  }
+
+  .contact-image {
+    width: 90px;
+  }
+
+  .contact-container a,
+  .contact-container p {
+    font-size: 1.2rem;
+  }
+
+  .copyright {
     font-size: 1rem;
-    color: #dfdfdf;
+  }
 }
