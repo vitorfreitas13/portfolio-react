@@ -1,16 +1,77 @@
-# React + Vite
+👨‍💻 Portfólio — React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao meu portfólio! 🚀
 
-Currently, two official plugins are available:
+Este projeto foi desenvolvido para apresentar meus conhecimentos em desenvolvimento web, meus projetos e minha evolução como desenvolvedor.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 Acesse o portfólio:
+https://portfolio-react-beta-swart.vercel.app
 
-## React Compiler
+🛠️ Tecnologias
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ⚛️ React
+- 🟨 JavaScript
+- 🎨 HTML5
+- 🎨 CSS3
+- 🟢 Node.js
+- 🔧 Git & GitHub
+- ▲ Vercel
 
-## Expanding the ESLint configuration
+📌 Sobre o projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Este portfólio foi criado utilizando React, com foco em uma interface moderna, responsiva e organizada para apresentar meus projetos e habilidades.
+
+O objetivo é reunir em um único lugar meus trabalhos e demonstrar, na prática, minha evolução no desenvolvimento web.
+
+✨ Características
+
+- Design responsivo
+- Interface moderna
+- Componentização com React
+- Organização de código
+- Projetos desenvolvidos na prática
+- Deploy utilizando Vercel
+
+🚀 Executando o projeto
+
+Clone o repositório:
+
+git clone SEU_LINK_DO_REPOSITORIO
+
+Entre na pasta:
+
+cd portfolio-react
+
+Instale as dependências:
+
+npm install
+
+Execute o projeto:
+
+npm run dev
+
+Depois, acesse no navegador o endereço indicado pelo Vite.
+
+📂 Estrutura
+
+portfolio-react/
+├── public/
+├── src/
+│   ├── components/
+│   ├── assets/
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+└── README.md
+
+🎯 Objetivo
+
+Continuar evoluindo como desenvolvedor, criando projetos reais e aprimorando meus conhecimentos em React, JavaScript e desenvolvimento web.
+
+🌐 Portfólio
+
+Site: https://portfolio-react-beta-swart.vercel.app
+
+---
+
+⭐ Se você gostou do projeto, considere deixar uma estrela no repositório!
