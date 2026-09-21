@@ -53,7 +53,7 @@ npm run dev
 Depois, acesse no navegador o endereço indicado pelo Vite.
 
 📂 Estrutura
-''
+'''
 portfolio-react/
 ├── public/
 ├── src/
@@ -63,7 +63,8 @@ portfolio-react/
 │   └── main.jsx
 ├── package.json
 └── README.md
-''
+'''
+
 🎯 Objetivo
 
 Continuar evoluindo como desenvolvedor, criando projetos reais e aprimorando meus conhecimentos em React, JavaScript e desenvolvimento web.
