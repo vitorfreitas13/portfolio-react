@@ -8,22 +8,26 @@ function Footer() {
 
        <div className="contact-item">
         <img className="contact-image" src="/src/assets/whatsapp.png" alt="Telefone" />
-        <p>(11) 1234-5678</p>
+        <p>(62) 98651-0690</p>
        </div> 
 
        <div className="contact-item">
         <img className="contact-image" src="/src/assets/email.png" alt="Email" />
-        <p>Meu email</p>
+        <p>dev.vitorfreitas13@gmail.com</p>
        </div>
 
        <div className="contact-item">
         <img className="contact-image" src="/src/assets/linkedin.png" alt="LinkedIn" />
-        <a>Meu link do Linkedin</a>
+        <a href="https://www.linkedin.com/in/vitor-freitas-13b0a024a/" target="_blank">LinkedIn</a>
        </div>
 
        <div className="contact-item">
         <img className="contact-image" src="/src/assets/github.png" alt="GitHub" />
-        <a>Meu GitHub</a>
+        <p>
+  Acesse meu
+  <a href="https://github.com/vitorfreitas13" target="_blank">GitHub</a>
+  
+</p>
        </div>
 
       </div>
