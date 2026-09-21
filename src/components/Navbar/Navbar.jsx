@@ -19,7 +19,7 @@ function Navbar() {
         <li><a href="#projects">Projetos</a></li>
         <li><a href="#footer">Contato</a></li>
       </ul>
-      <a href="">
+      <a href="/curriculo.pdf" download>
       <button className="btn-cv">Baixar CV</button>
       </a>
     </nav>
