@@ -54,7 +54,7 @@ Depois, acesse no navegador o endereço indicado pelo Vite.
 
 📂 Estrutura do projeto
 
-'''
+```
 portfolio-react/
 ├── public/
 ├── src/
@@ -64,7 +64,7 @@ portfolio-react/
 │   └── main.jsx
 ├── package.json
 └── README.md
-'''
+```
 
 🎯 Objetivo
 
