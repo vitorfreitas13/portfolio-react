@@ -8,7 +8,7 @@ function Footer() {
 
        <div className="contact-item">
         <img className="contact-image" src="/src/assets/whatsapp.png" alt="Telefone" />
-        <p>(62) 98651-0690</p>
+        <a href="https://api.whatsapp.com/send?phone=5562986510690" target="_blank">(62) 98651-0690</a>
        </div> 
 
        <div className="contact-item">
@@ -24,7 +24,7 @@ function Footer() {
        <div className="contact-item">
         <img className="contact-image" src="/src/assets/github.png" alt="GitHub" />
         <p>
-  Acesse meu
+  
   <a href="https://github.com/vitorfreitas13" target="_blank">GitHub</a>
   
 </p>
